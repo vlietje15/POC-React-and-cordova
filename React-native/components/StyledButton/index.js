@@ -5,8 +5,7 @@ import styles from './styles';
 
 const StyleButton = (props) => {
     
-    const type = props.type;
-    const content = props.content;
+    const {type, content} = props;
     
     const backgroundColor = type == 'primary' ? '#171A20CC' : '#FFFFFFA6';    
     const textColor = type == 'primary' ? '#FFFFFF' : '#171A20';    
